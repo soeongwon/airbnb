@@ -16,14 +16,18 @@
             <div class="insert-form">
                 <textarea class="insert" cols="30" rows="10" placeholder="변환할 문장을 입력하세요."></textarea>            
             </div>
-            <div class="btn">
-                <button class="btn" onclick="airbnb()">변환하기</button>
-            </div>
             <div class="result-form">
-                <textarea class="result" id="result" cols="30" rows="10"></textarea>
+                <div class="btn">
+                    <input type="button" value="변환하기"  class="btn1" id="trans" onclick="airBnb()">
+                </div>
+                <div class="btn btnGreen">
+                    <input type="button" value="입력창 지우기" class="btn2" id="clear" onclick="clearText1()">
+                    <input type="button" value="변환옵션" class="btn2" onclick="">
+                </div>
+                <textarea class="result"  id="result" cols="30" rows="10"></textarea>
             </div>
         </main>
     </div>
+    <script src="btn.js"></script>
 </body>
-<script src="btn.js"></script>
 </html>
