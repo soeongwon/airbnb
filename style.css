@@ -2,16 +2,26 @@
     margin-left: 40%;
 }
 
-.btn {
+.btn1 {
     width: 220px;
     height: 50px;
-    background: skyblue;
+    background: #007bff;
     border-radius: 5px;
     text-align: center;
     line-height: 3;
     margin-top: 1%;
+    color: white;
 }
 
-.result {
+.btn2 {
+    width: 110px;
+    height: 50px;
+    background: #17a2b8;
+    color: white;
     margin-top: 2%;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+.result {
+    
 }
